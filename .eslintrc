@@ -1,0 +1,20 @@
+{
+  "extends": ["prettier"],
+  "plugins": ["prettier"],
+  "parser": "@babel/eslint-parser",
+  "env": { "node": true, "jest": true },
+  "rules": {
+    "arrow-body-style": 0,
+    "max-len": [0, { "code": 120 }],
+    "no-restricted-syntax": "off",
+    "no-console": "off",
+    "semi": "off",
+    "comma-dangle": "off",
+    "arrow-parens": [0, "as-needed"],
+    "object-curly-newline": 0,
+    "import/prefer-default-export": 0,
+    "no-underscore-dangle": "off",
+    "node/no-unsupported-features/es-syntax": "off"
+  }
+}
+

@@ -1,0 +1,14 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": { "node": "14" }
+      }
+    ]
+  ],
+  "plugins": [
+    ["@babel/plugin-proposal-async-generator-functions"],
+    ["inline-json-import", {}]
+  ]
+}
