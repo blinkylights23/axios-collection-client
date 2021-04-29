@@ -1,6 +1,6 @@
 {
   "name": "@paulsmith/axios-collection-client",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Axios helper for accessing APIs that return paginated collections",
   "keywords": [
     "axios",
